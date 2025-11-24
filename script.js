@@ -1,56 +1,47 @@
 
- 
-// ========================================
-// 1. getElementById() - Get single element by ID
-// ========================================
-
-
+// ============================================
+// DOM MANIPULATION - TASK MANAGER PROJECT
+// ============================================
 
 
 
 
 
 // ========================================
-// 2. getElementsByName() - Get elements by name attribute
-// ========================================
-
-
-// ========================================
-// 3. getElementsByTagName() - Get elements by tag
-// ========================================
-
-
-// ========================================
-// 4. getElementsByClassName() - Get elements by class
+// SELECTING ELEMENTS
 // ========================================
 
 
 
-                
-
-// ========================================
-// 5. querySelector() - Get first matching element
-// ========================================
+// 1. getElementById() - Selects ONE element by its ID
 
 
 
-
-// ========================================
-// 6. querySelectorAll() - Get all matching elements
-// ========================================
+// 2. getElementsByClassName() - Selects ALL elements with a class (returns HTMLCollection)
 
 
-                   
+
+// 3. getElementsByTagName() - Selects ALL elements by tag name (returns HTMLCollection)
+
+
+
+// 4. querySelector() - Selects the FIRST element that matches (modern way)
+
+
+
+
+// 5. querySelectorAll() - Selects ALL elements that match (returns NodeList)
+
 
 
 
 
 // ========================================
-// Add Task Function
+// ADD TASK FUNCTION
 // ========================================
 
 
-    
+
 
 
 
@@ -59,25 +50,48 @@
 
 
 // ========================================
-// Delete Task Function
-// ========================================
-
-    
-
-
-
-
-// ========================================
-// Filter Tasks
+// TOGGLE COMPLETE FUNCTION
+// Uses PARENT traversal
 // ========================================
 
 
 
 
 
+
+
+
 // ========================================
-// Update Statistics
+// DELETE TASK FUNCTION
+// Uses PARENT traversal
 // ========================================
+
+
+
+
+
+
+
+
+
+// ========================================
+// FILTER TASKS FUNCTION
+// Uses querySelectorAll() to get all tasks
+// ========================================
+
+
+
+
+
+
+
+
+// ========================================
+// UPDATE STATISTICS FUNCTION
+// Uses getElementById() and getElementsByClassName()
+// ========================================
+
+
 
 
 
@@ -86,6 +100,6 @@
 
 // ========================================
 // EVENT LISTENERS
-// ========================================
+// ======================================== 
 
-    
+
